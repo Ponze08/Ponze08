@@ -8,22 +8,13 @@
 
 ## `> whoami`
 
-I'm **Andrea / Ponze08**, a software developer who likes building projects end-to-end — from data flow and persistence to UI, failure modes and the weird edge cases in between.
+I'm **Andrea / Ponze08** — a software developer focused on **AI tools, realtime apps, security-minded systems and interactive software experiments**.
 
-My repositories currently orbit four recurring ideas:
-
-- **Local-first AI** — explicit memory, document retrieval, private-by-default persistence.
-- **Realtime systems** — WebSockets, SSE, event pipelines, market data and synchronized multiplayer.
-- **Security-minded software** — passkeys/WebAuthn, TOTP, server sessions, CSRF protection and auditability.
-- **Interactive experiments** — browser games, procedural 3D worlds, utility tools and interfaces that behave like products.
+I like building projects end-to-end: architecture, data flow, persistence, frontend, product feel, and all the edge cases in between.
 
 <br>
 
-<img src="./assets/stack.svg" alt="Verified technology stack" width="100%" />
-
-<br>
-
-## `> featured_work`
+## `> selected_builds`
 
 <table>
 <tr>
@@ -67,7 +58,39 @@ My repositories currently orbit four recurring ideas:
 <div align="center">
 
 [**Play Retro Arcade ↗**](https://ponze08.github.io/arcade/) &nbsp;&nbsp;·&nbsp;&nbsp;
-[**Open ReleaseHub demo ↗**](https://ponze08.github.io/releasehub/)
+[**Open ReleaseHub Demo ↗**](https://ponze08.github.io/releasehub/)
+
+</div>
+
+<br>
+
+## `> toolbox`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,ts,js,cs,react,nextjs,fastapi,postgres,sqlite,prisma,docker,threejs,git,github&theme=dark" alt="Tech stack icons" />
+
+</div>
+
+<div align="center">
+
+<sub>Python · TypeScript · JavaScript · C#/.NET · React · Next.js · FastAPI · PostgreSQL · SQLite · Prisma · Docker · Three.js · Git · GitHub</sub>
+
+</div>
+
+<br>
+
+## `> on_the_web`
+
+<div align="center">
+
+<a href="https://andreaponzellini.com">
+  <img src="https://img.shields.io/badge/Website-andreaponzellini.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=38BDF8&labelColor=0D1117" alt="Personal website" />
+</a>
+&nbsp;
+<a href="https://webfoundry-site.netlify.app/">
+  <img src="https://img.shields.io/badge/WebFoundry-visit%20project-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6&labelColor=0D1117" alt="WebFoundry" />
+</a>
 
 </div>
 
@@ -84,21 +107,11 @@ My repositories currently orbit four recurring ideas:
 
 <br>
 
-## `> github_pulse`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ponze08&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&icon_color=38BDF8&ring_color=8B5CF6" alt="Ponze08 GitHub stats" height="170" />
-
-</div>
-
-> I keep this section intentionally small. The useful part of the profile is the code above it.
-
-<br>
-
 ## `> connect`
 
 - GitHub: [**@Ponze08**](https://github.com/Ponze08)
+- Website: [**andreaponzellini.com**](https://andreaponzellini.com)
+- WebFoundry: [**webfoundry-site.netlify.app**](https://webfoundry-site.netlify.app/)
 - Email: **info@andreaponzellini.com**
 
 <br>
