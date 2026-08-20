@@ -1,0 +1,84 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38BDF8"/>
+    <stop offset="55%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" stroke="#182131" stroke-width="1" opacity=".55"/>
+  </pattern>
+</defs>
+<rect width="1200" height="190" rx="24" fill="#0D1117"/>
+<rect x="1" y="1" width="1198" height="188" rx="23" stroke="#253046" stroke-width="2"/>
+<text x="48" y="48" fill="#8B949E" font-family="Consolas, monospace" font-size="14" letter-spacing="3">VERIFIED TOOLBOX</text>
+
+<g transform="translate(48 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#38BDF8"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Python</text>
+</g>
+<g transform="translate(230 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#7DD3FC"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">TypeScript</text>
+</g>
+<g transform="translate(412 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#C4B5FD"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">C# / .NET</text>
+</g>
+<g transform="translate(594 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#22D3EE"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">React</text>
+</g>
+<g transform="translate(776 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#E6EDF3"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Next.js</text>
+</g>
+<g transform="translate(958 76)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#5EEAD4"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">FastAPI</text>
+</g>
+<g transform="translate(48 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#93C5FD"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">PostgreSQL</text>
+</g>
+<g transform="translate(230 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#A5B4FC"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">SQLite</text>
+</g>
+<g transform="translate(412 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#D8B4FE"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Prisma</text>
+</g>
+<g transform="translate(594 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#7DD3FC"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Docker</text>
+</g>
+<g transform="translate(776 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#E2E8F0"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Three.js</text>
+</g>
+<g transform="translate(958 134)">
+  <rect width="154" height="42" rx="12" fill="#101722" stroke="#253046"/>
+  <circle cx="20" cy="21" r="5" fill="#CBD5E1"/>
+  <text x="36" y="27" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Git / GitHub</text>
+</g>
+</svg>

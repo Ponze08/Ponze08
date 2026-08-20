@@ -1,0 +1,33 @@
+<svg width="560" height="190" viewBox="0 0 560 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38BDF8"/>
+    <stop offset="55%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" stroke="#182131" stroke-width="1" opacity=".55"/>
+  </pattern>
+</defs>
+<rect width="560" height="190" rx="20" fill="#0D1117"/>
+<rect x="1" y="1" width="558" height="188" rx="19" stroke="#253046" stroke-width="2"/>
+<rect x="0" y="0" width="5" height="190" rx="2.5" fill="#22D3EE"/>
+<circle cx="504" cy="44" r="74" fill="url(#halo)" opacity=".55"/>
+
+<text x="32" y="38" fill="#22D3EE" font-family="Consolas, monospace" font-size="12" letter-spacing="2">SECURITY / AUTH</text>
+<text x="32" y="76" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">passkey_public</text>
+<text x="32" y="108" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Production-oriented auth scaffold with WebAuthn/passkeys, TOTP,</text>
+<text x="32" y="130" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">server sessions, CSRF protection, rate limits and audit events.</text>
+<text x="32" y="163" fill="#E6EDF3" opacity=".85" font-family="Consolas, monospace" font-size="12">React · TypeScript · Express · PostgreSQL · Prisma · WebAuthn</text>
+
+<path d="M505 143 L522 143 L522 126" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M510 155 L522 143" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+</svg>

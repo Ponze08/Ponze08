@@ -1,0 +1,25 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38BDF8"/>
+    <stop offset="55%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" stroke="#182131" stroke-width="1" opacity=".55"/>
+  </pattern>
+</defs>
+<rect width="1200" height="130" rx="24" fill="#0D1117"/>
+<rect width="1200" height="130" rx="24" fill="url(#grid)" opacity=".6"/>
+<path d="M0 76 C130 40, 225 105, 355 76 S585 42, 710 76 S955 108, 1200 62" stroke="url(#neon)" stroke-width="2" opacity=".75"/>
+<text x="600" y="50" text-anchor="middle" fill="#8B949E" font-family="Consolas, monospace" font-size="13" letter-spacing="4">BUILD / MEASURE / BREAK / LEARN / SHIP</text>
+<text x="600" y="108" text-anchor="middle" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="14">Ponze08 · built as code, not as a badge wall.</text>
+</svg>
